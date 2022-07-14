@@ -1,6 +1,5 @@
 # Wget-Root
-
-This is a python script that exploits wget when being set with a SUID bit, and overwrites the root password. <br>
+This is a python script that exploits wget when being set with a SUID bit, and allows privilege escalation by overwriting the root password. <br>
 **⚠️ Warning:** This script is completly for penetration testing purposes. I do not claim any responsibility if you use it for offensive activities.
 
 # Usage

@@ -1,7 +1,8 @@
 # Wget-Root
-This is a python script that exploits wget when being set with a SUID bit, and allows privilege escalation by overwriting the root password. <br>
+
 **⚠️ Warning:** This script is completly for penetration testing purposes. I do not claim any responsibility if you use it for offensive activities.
 
+If the wget  binary has the SUID bit set, It does not drop the elevated privileges and may be abused to access the file system. It may be used to do privileged writes or write files outside a restricted file system. This script automates the rewriting of the `passwd` file of the victims machine
 # Usage
 From the victims shell, copy the /etc/passwd file to your host machine. (Be carefull and do not overwrite your own passwd file) <br>
 ```bash

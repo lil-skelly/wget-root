@@ -27,5 +27,6 @@ Then it will host the `<passwd copy>` file to the web using a custom reuseable p
 **Dynamic** instructions will also be printed at the command line during the exploit execution as shown in the picture below.
 The password for the `root` user, is simply `root`. 
 
-![Proof Of Concept Video](https://user-images.githubusercontent.com/80885284/182122277-11c1718b-de9a-4bf6-b7aa-8e5f61d7acdb.webm)
-![showcase](https://i.imgur.com/1bVzFk8.png)
+![Proof Of Concept Video](https://user-images.githubusercontent.com/80885284/182122277-11c1718b-de9a-4bf6-b7aa-8e5f61d7acdb.webm) <br>
+![Screenshot 2022-08-01 11:01:30](https://user-images.githubusercontent.com/80885284/182182543-b10b2e50-64c3-4f57-ab8e-ea0ddde7561a.png)
+

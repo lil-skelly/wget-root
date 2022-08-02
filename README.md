@@ -1,6 +1,6 @@
 # Wget-Root
 
-**⚠️ Warning:** This script is completly for penetration testing purposes. I do not claim any responsibility if you use it for offensive activities.
+**⚠️ Warning:** This script is completly for white hat activities. I do not claim any responsibility for the damage it may cause if used for offensive purposes.
 
 If the wget binary has the SUID bit set, It does not drop the elevated privileges and may be abused to access the file system. It may be used to do privileged writes or write files outside a restricted file system. This script automates the rewriting of the `passwd` file of the victims machine
 # Usage
@@ -36,4 +36,3 @@ The password for the `root` user, is simply `root`.
 
 [TryHackMe](https://tryhackme.com) has an [awesome machine](https://tryhackme.com/room/wgelctf) that lets you play with this exploit. <br>
 ⚠️ Solving CTF's with others exploit just kills the fun. Using this exploit to solve the ctf above is not recommended for begginers in the world of IT. More advanced users are welcome to use this exploit to automatically solve the CTF listed above for fun or for testing purposes.
-

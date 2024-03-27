@@ -1,4 +1,9 @@
-127.0.0.1   oingoingboingdoing
+# This hosts file serves as an EXAMPLE file to showcase wget-root's `dnspoof` payload
+# Usage:
+# $ python3 wget-exploit.py
+# Choose dnspoof and provide the script with the path to this file
+
+127.0.0.1   localhost
 127.0.1.1	alice
 
 # The following lines are desirable for IPv6 capable hosts
@@ -7,5 +12,5 @@ fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
-127.0.0.1   oingoingboingdoing
-127.0.0.1   oingoingboingdoing
+127.0.0.1   alice
+127.0.0.1   alice
